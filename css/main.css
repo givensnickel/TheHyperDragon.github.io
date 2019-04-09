@@ -298,9 +298,11 @@ textarea {
     }
 }
 
-html {
+html body{
     height: 100%;
     box-sizing: border-box;
+    margin: 0;
+    background: #2C2F33;
 }
 
 *,
@@ -309,15 +311,7 @@ html {
     box-sizing: inherit;
 }
 
-body {
-    position: relative;
-    margin: 0;
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    background: #2C2F33;
-
-}
-
-ul {
+nav>ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -326,13 +320,13 @@ ul {
     font-family: 'Roboto', sans-serif;
 }
 
-li {
+nav ul>li {
     float: left;
 }
 
-li a {
+nav ul li>a {
     display: block;
-    color: white;
+    color: white !important;
     font-size: 1rem;
     text-align: center;
     padding: 14px 16px;
@@ -340,7 +334,7 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+nav ul li>a:hover {
     background-color: #111;
 }
 
@@ -348,32 +342,46 @@ li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 93.5vh;
+}
+
+.hero>img {
+    border-radius: 100%;
+}
+
+.commands {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100vh;
 }
 
-.hero > img {
-    border-radius: 100%;
+.commands-desc {
+    display: flex;
+    align-items: flex-start;
+    justify-content: first baseline;
+    height: 20vmin;
+    width: 100vmin;
 }
 
 .hero-desc {
     margin: 1rem;
 }
 
-.hero-desc > h1 {
+.hero-desc>h1 {
     color: red;
     font-family: 'Rock Salt', cursive;
 }
 
-.hero-desc > h4 {
+.hero-desc>h4 {
     color: #fff;
 }
 
 footer {
-    position: absolute;
+    position: relative;
     right: 0;
     bottom: 0;
     left: 0;
     padding: .5rem;
     color: white;
-    background: #23272A;
 }
