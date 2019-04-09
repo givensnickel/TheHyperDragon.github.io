@@ -1,0 +1,81 @@
+= Command List =
+
+[Use H!help <commandname> for details]
+
+== Fun ==
+H!8ball       :: Gives you an answer for those essential questions
+H!bigemoji    :: Get your faveorite emoji... SUPERSIZED!
+H!chucknorris :: Get a random Chuck Norris joke. Quality is not guaranteed.
+H!coin        :: Flips a coin
+H!cuddle      :: Give someone a cuddle!
+H!emoji       :: Sends an emoji from any server HyperBot is in.
+H!hug         :: Give someone a hug!
+H!kiss        :: Give someone a kiss!
+H!music       :: Play some tunes from YT! The music functions are "play", "np", "queue", and "leave". Please use the leave function when you are finished.
+H!poke        :: Poke someone!
+H!pug         :: Get a picture of a pug, because pugs are best.
+H!ship        :: Ship two users!
+H!slap        :: Slap someone!
+H!slots       :: Try your luck at the slot machine! No rewards provided.
+H!urban       :: Search stuff on Urban Dictionary
+​
+== Gaming ==
+H!rs-stats    :: Provides the link to the RuneScape character stats of a given player.
+​
+== Miscelaneous ==
+H!google      :: Ask the almighty Google stuff.
+H!mylevel     :: Tells you your permission level for the current message location.
+H!ping        :: Ping the bot
+H!stats       :: Gives some useful bot statistics
+​
+== Music ==
+H!np          :: Check what song is playing
+H!pause       :: Pauses the music
+H!play        :: Plays a song from YouTube
+H!queue       :: Check what's going to play
+H!resume      :: Continues a paused song
+H!skip        :: Skips a song
+H!stop        :: Stops the music and clears the queue
+​
+== Server Management ==
+H!ban         :: Swings the mighty ban hammer. Providing a reason is optional.
+H!hban        :: Bans a user by their ID. They don't even need to be in the server!
+H!kick        :: Delivers a swift kick to the balls. Providing a reason is optional.
+H!purge       :: Deletes messages by bulk
+
+== System ==
+H!contact     :: Send a message to the bot developer. You can get blocked from this command by spamming it or sending useless crap.
+H!donate      :: Get a link to the Patreon page to help support HyperBot
+H!eval        :: Evaluates arbitrary javascript. //OWNER ONLY!
+H!help        :: Displays a nice help message
+H!helpall     :: Displays all the available commands for your permission level. It looks very ugly.
+H!helpfor     :: Get help on a specific command.
+H!info        :: Get info about the bot
+H!invite      :: Gives you the link to add HyperBot to your own server.
+H!leave       ::  //OWNER ONLY!
+H!reboot      :: Shuts down the bot. If running under PM2, bot will restart automatically. //OWNER ONLY!
+H!reload      :: Reloads a command that's been modified. //OWNER ONLY!
+H!server      :: Gives you the invite link to the official support server of HyperBot.
+H!set         :: View or change settings for your server.
+H!starttyping ::  //OWNER ONLY!
+H!status      :: Changes the bot status //OWNER ONLY!
+H!stoptyping  ::  //OWNER ONLY
+​
+== Utility ==
+H!avatar      :: Disply the avatar of a user.
+H!dm          :: DM a user //OWNER ONLY!
+H!emojis      :: Provides a list of the emojis in the current server
+H!icon        :: Get the icon of a server.
+H!lchannels   ::  //OWNER ONLY
+H!lservers    :: List all servers HyperBot is in.
+H!lusers      ::  //OWNER ONLY
+H!remind      :: Have HyperBot set a reminder for you.
+H!serverinfo  :: Get info on the server
+H!weather     :: Provides the weather at a given location
+H!whois       :: Get info about yourself or another mentioned user.
+​
+== VIP ==
+H!quote       :: Someone say something funny, bizzare, or just plain stupid, and you want to quote them on it? This is for you!
+H!react       :: React to a message with any emoji from any server HyperBot is in.
+H!say         :: Make the bot say something and delete what you said. You need to be a VIP or Server Owner to use this.
+
