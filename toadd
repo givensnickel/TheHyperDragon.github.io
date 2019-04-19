@@ -7,7 +7,8 @@
           </div>
           
           
-          <div id="jobModal" class="modal fade show" role="dialog" style="display: block;">
+
+<div id="jobModal" class="modal fade show" role="dialog" style="display: none;" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header btn-info disabled">
