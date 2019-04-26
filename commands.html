@@ -84,30 +84,36 @@
                 <h3 class="card-header">8ball</h3>
                 <div class="card-block" style="margin: 7px">
                     <p class="card-text">Gives you an answer for those essential questions.</p>
-                    <h6 class="card-subtitle text-muted">H!8ball {question}<br><a href="#" data-toggle="modal" data-target="#ballModal">more...</a></h6>
+                    <h6 class="card-subtitle text-muted">H!8ball (question)<br><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#ballModal">More</button></h6>
                 </div>
             </div>
             
-         <div id="ballModal" class="modal fade show" role="dialog" style="display: none;" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header btn-info disabled">
-                  <h4 class="modal-title">8ball</h4>
-                  <button type="button" class="close" data-dismiss="modal">×</button>
-                </div>
-                <div class="modal-body">
-                  <p><span style="font-weight: bold;">Description:</span> Gives you an answer for those essential questions.</p>
+            <!-- Modal -->
+            <div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+                    <p><span style="font-weight: bold;">Description:</span> Gives you an answer for those essential questions.</p>
                     <p><span style="font-weight: bold;">Category:</span> Fun</p>
                     <p><span style="font-weight: bold;">Usage Example(s):</span> <br>8ball (question)</p>
                     <p><span style="font-weight: bold;">Command Aliases: </span> ball</p>
                     <p><span style="font-weight: bold;">Cooldown:</span> 5s (Premium 2.5s)</p>
+ 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
 
-
-                  </div>
-                <div class="modal-footer"><button type="button" class="btn btn-outline-danger" data-dismiss="modal">Close</button></div>
-              </div>
-            </div>
-          </div>
+  </div>
+</div>
+  
 
             <div class="card">
                 <h3 class="card-header">bigemoji</h3>
