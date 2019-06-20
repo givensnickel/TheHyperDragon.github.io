@@ -1,7 +1,7 @@
 var settings = {
     "options": {
         "pauseTime": "45",
-        "inbetweenPauseTime": "85"
+        "inbetweenPauseTime": "45"
     },
     "colors": {
         "iconBoxColor": "rgba(232,0,0,0.69)",
